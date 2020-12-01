@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Coleman's Soccer Page</title>
+</head>
+
+<body>
+  <h1>I love soccer</h1> <br>
+  <h2>I play for <strong>Calvin University</strong></h2>
+
+  <p>I am from Charlotte, North Carolina, and I have been playing soccer for 16 years</p> <br>
+  <p>Here are some reasons why I like the game</p>
+  <ul>
+    <li>It keeps you fit and strong</li>
+    <li>It makes you think and keep your brain active</li>
+    <li>It teaches you life lessons such as team chemistry and selflessness</li>
+  </ul>
+
+  <p>Here is a picture of my favorite soccer player, Thiago Alcantara</p>
+  <img src="Thiago.jpg" alt="Picture of Thiago Alcantara playing soccer!">
+
+</body>
+
+
+</html>
