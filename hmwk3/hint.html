@@ -1,0 +1,37 @@
+<!-- Coleman Ulry
+     9-27-20
+     Hmwk3  -->
+
+<html>
+  <title><head>Hint</head></title>
+
+  <body>
+    <p>
+      What is the world's hottest pepper? This pepper is so hot that it could
+      cause anaphylactic shock...
+    </p>
+
+    <!-- When clicked, this button will display the answer -->
+    <button id="hint" onclick="displayAnswer()">Click for the answer!</button>
+
+    <!-- When clicked, this button will hide the answer -->
+    <button id="hideHint" onclick="hideAnswer()">
+      Click to hide the answer!
+    </button>
+
+    <script>
+      // This function will display the answer
+      function displayAnswer() {
+        document.getElementById("answer").innerHTML = "The Carolina Reaper";
+      }
+
+      // This function will hide the answer
+      function hideAnswer() {
+        document.getElementById("answer").style.visibility = "hidden";
+      }
+    </script>
+
+    <!-- No text, will change depending on button event action -->
+    <p id="answer"></p>
+  </body>
+</html>
