@@ -1,0 +1,50 @@
+/* Coleman Ulry
+   CSS file for my calvin website html */
+
+
+/* centers the calvin logo, gives it specific dimensions */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+}
+
+/* places search bar to right of logo, gives background color, specifies position on page*/
+.searchbar {
+  float: right;
+  background-color: lightgray;
+  position: absolute;
+  top: 50px;
+  right: 10%;
+}
+
+/* styles menu bar with color, centered elements, specific padding, font size and style */
+ul {
+  background-color: #800000;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  text-align: center;
+  font-size: 1.6vw;
+  font: Arial;
+}
+
+/* specifies menu elements as inline, color of text */
+li {
+  display: inline;
+  padding: 10 50px;
+  color: white;
+}
+
+/* creates background color when mouse is hovered over menu element */
+li:hover {
+  background-color: lightgray;
+}
+
+/* centers text and gives it large font size */
+.text {
+  text-align: center;
+  font-size: 40;
+}
